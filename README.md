@@ -22,7 +22,7 @@
 
 5. Sponsors page, categorised sponsors, animated using AOS
 	**The sponsor's logo have been placed on a white panel using a pinterest grid library**
-	> ```javascript <script src="scripts/pinterest_grid.js"></script> ```
+	```javascript <script src="scripts/pinterest_grid.js"></script> ```
 	>
 	![sponsors](screenshots/13.jpg) ![sponsors](screenshots/12.jpg) 
 
