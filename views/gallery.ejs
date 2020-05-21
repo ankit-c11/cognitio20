@@ -1,16 +1,16 @@
 <% include partials/header %>
-<title>COGNITIO | Events</title>
+<title>COGNITIO | Gallery</title>
  <meta name="theme-color" content="#f8e5ee">
 		<img class='header header-pc header-mobile' src="https://i.ibb.co/nR1bWjg/ev.jpg">
 <% include partials/follow %>
 
-  <% gallery.forEach(function(event){ %>
-    <%# <div class='event_div' id=<%= event.id %>> %>
+  <% Gallery.forEach(function(event){ %>
+    <div class='event_div' id=<%= event.id %>>
       <% event.images.forEach(function(image){ %>
       <div class='gallery_item thumbnail'><img src='stylesheets/gallery/<%=event.id%>/<%= image %>.jpg'></div>
       <% }); %>
 
-    <%# </div> %>
+    </div>
   <% }); %>
 
 <% include partials/footer %>
