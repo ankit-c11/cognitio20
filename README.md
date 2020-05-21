@@ -15,6 +15,7 @@
 	>
 	![eventcard](screenshots/5.jpg) ![eventcard](screenshots/7.jpg)
 4. Team page with categorised sub-teams, designed using *Bootstrap grid-system*
+	>
 	![team](screenshots/10.jpg) ![teamgrid](screenshots/9.jpg)
 	>
 	>
