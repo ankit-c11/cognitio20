@@ -1,9 +1,10 @@
 # Cognitio-20
 ### Website for Cognitio, the annual fest of Mechanical Engineering Department, N.I.T. Jamshedpur
 
-*This website was meant for mobile phone users*
+*This website was meant for mobile phone users. Built using HTML,CSS,JS,Bootstrap4,NodeJS*
 
 1. Top fixed navbar with side slider toggle menu using BOOTSTRAP4
+	>
 	![navbar](screenshots/1.jpg)  ![menu](screenshots/2.jpg)
 2. Cards with shake effect on hovering and AOS animations
 	>
@@ -18,11 +19,13 @@
 	>
 	>
 	>*No database has been used but all the sub teams have been dynamically created*
+	>
 	>*Check views/team.ejs for the code.*
 
 5. Sponsors page, categorised sponsors, animated using AOS
 	**The sponsor's logo have been placed on a white panel using a pinterest grid library**
-	```javascript <script src="scripts/pinterest_grid.js"></script> ```
+	>
+	> ```<script src="scripts/pinterest_grid.js"></script> ```
 	>
 	![sponsors](screenshots/13.jpg) ![sponsors](screenshots/12.jpg) 
 
