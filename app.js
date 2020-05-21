@@ -391,8 +391,8 @@ app.get("/guests", function(req,res){
     res.render("guests");
 });
 app.get("/gallery", function(req,res){
-    //res.render("gallery",{gallery: gallery});
-    res.render("appgallery",{appgallery: gallery});
+    res.render("gallery",{gallery: gallery});
+    // res.render("appgallery",{appgallery: gallery});
 
 });
 app.get("/app-privacy-policy", function(req, res){
