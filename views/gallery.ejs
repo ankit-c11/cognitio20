@@ -4,13 +4,12 @@
 		<img class='header header-pc header-mobile' src="https://i.ibb.co/nR1bWjg/ev.jpg">
 <% include partials/follow %>
 
-  <% Gallery.forEach(function(event){ %>
-    <div class='event_div' id=<%= event.id %>>
+  <% gallery.forEach(function(event){ %>
+    
       <% event.images.forEach(function(image){ %>
       <div class='gallery_item thumbnail'><img src='stylesheets/gallery/<%=event.id%>/<%= image %>.jpg'></div>
       <% }); %>
 
-    </div>
   <% }); %>
 
 <% include partials/footer %>
