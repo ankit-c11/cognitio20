@@ -1,0 +1,20 @@
+<% include partials/header.ejs %>
+<meta name='theme-color' content='#6496D1'>
+<img class='header header-pc header-mobile' src='https://motto.za.net/wp-content/uploads/2018/12/5-Positive-Conflict-tips-You-Can-Learn-From-High-Performance-Teams.jpg'>
+<% include partials/follow %>
+<div id='content'>
+    <% team.forEach(function(subTeam){ %>
+    <div class='container'>
+        <h1 class="text-center display-6"><%= subTeam.name %></h1>
+        <div class="row text-center" >
+        <% subTeam.members.forEach(function(member){ %>
+        <div class='col-6 col-sm-4 col-lg-3 member'>
+            <img class="img-thumbnail" src=<%= member.image %>>
+            <h3><%= member.name %></h3>
+            <span><%= member.position %></span>
+        </div>
+        <% }); %>
+        </div>
+    </div>
+    <% }); %>
+<% include partials/footer.ejs %>
